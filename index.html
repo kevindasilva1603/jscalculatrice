@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>JS</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./reset.css" />
+    </head>
+    <body>
+        <h1>Calculatrice</h1>
+        <form id="calculatriceForm">
+            <input type="number" id="number1" />
+            <input type="number" id="number2" />
+            <select id="operation">
+                <option value="+">+ Addition</option>
+                <option value="-">- Soustraction</option>
+                <option value="*">* Multiplier</option>
+                <option value="/">/ Diviser</option>
+            </select>
+            <button class="calc" type="submit">Calculer</button>
+            <button class="reset" type="button" onclick="reinitialiser()">
+                Réinitialiser
+            </button>
+        </form>
+        <section>
+            <div id="results"></div>
+            <div class="error"></div>
+        </section>
+    </body>
+</html>
