@@ -41,7 +41,7 @@ function calculer() {
 
 function afficherResultat(resultat) {
     document.getElementById("results").textContent =
-        "Le résultat est: " + resultat;
+        "Le résultat est : " + resultat;
 }
 
 function montrerErreur(message) {
